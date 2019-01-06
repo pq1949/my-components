@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-
-import ExampleComponent from '@pq1949/components'
+import MyComponents  from '@pq1949/components'
+const ConvertUnit = MyComponents.ConvertUnit
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <ConvertUnit text='Modern React component module' />
       </div>
     )
   }
